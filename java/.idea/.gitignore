@@ -1,0 +1,144 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.mvn/
+mvnw
+
+# Package
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# compiled .class files
+*.class
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.project
+.settings/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Runtime data
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+temp/
+
+# System files
+.svn/
+.git/
+.hg/
+
+# Mac OS
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows image file caches
+Thumbs.db
+ehthumbs_vista.db
+iconcache.db
+
+# File system metadata
+*.fseventsd
+*.Spotlight-V100
+.AppleDB
+.AppleDesktop
+.Trashes
+
+# IntelliJ
+out/
+*.iws
+
+# Credentials
+# - Ansible
+ansible.cfg
+hosts
+
+# - Docker
+docker-compose.yml
+
+# - IntelliJ
+/out/
+/log/
+*.iml
+*.ipr
+
+# - Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.mvn/
+
+# - Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# - sbt
+.sbt/
+target/
+project/target/
+.idea/
+*.iml
+*.ipr
+
+# - Spring Boot
+build/
+*.run
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+logs/
+tmp/
+*.log
+
+# SonarQube
+.sonar/
+sonar-client.jar
+
+java/gateway/src/main/java/ljl/bilibili/gateway/util/SendMessage.java
